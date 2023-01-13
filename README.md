@@ -1,2 +1,3 @@
-# gusty
-Styled Component approach to writing Tailwind variant scoped classes with a nested SCSS like syntax
+# Gusty
+
+Styled Component approach to writing Tailwind variant scoped classes with a nested SCSS / GraphQL like syntax
