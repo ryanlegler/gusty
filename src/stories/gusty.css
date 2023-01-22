@@ -1,0 +1,6 @@
+.foo {
+    border: 1px solid magenta;
+}
+.hover\:bar:hover {
+    border: 1px solid #bada55;
+}
