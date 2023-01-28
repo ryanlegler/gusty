@@ -1,4 +1,4 @@
-import { gusty } from "../utils/gusty";
+import { gusty } from "../gusty";
 import "./gusty.css";
 
 export default {
@@ -9,7 +9,7 @@ export default {
 };
 
 const Template = () => {
-    const MyComponent = gusty("div")`
+    const MyComponent = gusty("div")<{ hover: string }>`
             foo
             hover {
                 ${(props: any) => `${props.hover}`}
